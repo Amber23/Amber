@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vegliante e Forma d'Ombra — Amber Elensar Ell</title>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=EB+Garamond:ital@0;1&family=Mea+Culpa&display=swap" rel="stylesheet">
+<style>
+body{background:#050404;margin:0;padding:0;}
+.giro{transform-origin:300px 300px;animation:giro 160s linear infinite;}
+.controgiro{transform-origin:300px 300px;animation:giro 240s linear infinite reverse;}
+@keyframes giro{to{transform:rotate(360deg);}}
+.occhio{transform-origin:center;animation:batti 7s ease-in-out infinite;}
+@keyframes batti{0%,92%,100%{transform:scaleY(1);}95%{transform:scaleY(.08);}}
+.pulsa{animation:pulsa 6s ease-in-out infinite;}
+@keyframes pulsa{0%,100%{opacity:.55;}50%{opacity:1;}}
+@media (prefers-reduced-motion:reduce){.giro,.controgiro,.occhio,.pulsa{animation:none;}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute;" aria-hidden="true"><defs>
+<radialGradient id="iride"><stop offset="0" stop-color="#ff5a4a"/><stop offset=".45" stop-color="#c0242f"/><stop offset="1" stop-color="#5c0a12"/></radialGradient>
+<filter id="bagliore" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs></svg>
+<div style="background:#050404 radial-gradient(ellipse at 50% 30%,#1a0507 0%,#050404 60%);margin:0;padding:4px;font-family:'EB Garamond',Georgia,serif;font-size:13px;line-height:1.85;color:#d3c8b0;min-height:100vh;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="600">
+
+<tr><td align="center" style="padding:26px 0 18px;"><span style="font-family:'Mea Culpa',cursive;font-size:46px;color:#f0e8d6;">Amber Elensar Ell</span></td></tr>
+
+<tr><td><div style="border-bottom:3px double #6b6457;padding-bottom:6px;"><i style="float:right;margin-top:16px;font-size:12px;color:#8f8572;">Dum dormiunt, vigilo</i><i style="font-size:28px;color:#8f8572;margin-right:16px;">IV</i><span style="font-family:UnifrakturMaguntia,serif;font-size:30px;color:#f0e8d6;">Vegliante e Forma d'Ombra</span></div></td></tr>
+
+<!-- VEGLIANTE: l'immagine legata dentro il sigillo -->
+<tr><td style="padding-top:34px;">
+<div style="font-family:UnifrakturMaguntia,serif;font-size:24px;color:#f0e8d6;text-align:center;letter-spacing:1px;">Vegliante</div>
+<div style="position:relative;width:600px;height:600px;margin-top:6px;">
+<svg width="600" height="600" viewBox="0 0 600 600" style="position:absolute;left:0;top:0;" aria-hidden="true">
+<defs>
+<radialGradient id="alone" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#5c0a12" stop-opacity=".55"/><stop offset=".55" stop-color="#2a0508" stop-opacity=".35"/><stop offset="1" stop-color="#050404" stop-opacity="0"/></radialGradient>
+<path id="anello" d="M300,300 m-277,0 a277,277 0 1,1 554,0 a277,277 0 1,1 -554,0"/>
+</defs>
+<circle cx="300" cy="300" r="300" fill="url(#alone)"/>
+<circle cx="300" cy="300" r="292" fill="none" stroke="#6e0a12" stroke-width="1.5"/>
+<circle cx="300" cy="300" r="266" fill="none" stroke="#c0242f" stroke-width=".8"/>
+<g class="giro">
+<text font-family="'EB Garamond',serif" font-size="14" letter-spacing="3" fill="#c0242f"><textPath href="#anello" textLength="1735" lengthAdjust="spacing">DVM DORMIVNT VIGILO ✠ QVOD VIDET VMBRA NON OBLIVISCITVR ✠ DVM DORMIVNT VIGILO ✠ QVOD VIDET VMBRA NON OBLIVISCITVR ✠</textPath></text>
+</g>
+<g class="controgiro" stroke="#c0242f" fill="none">
+<circle cx="300" cy="300" r="252" stroke-width=".6" stroke-dasharray="2 6"/>
+<polygon points="300,58 489,149 536,354 405,518 195,518 64,354 111,149" stroke-width=".7" opacity=".55"/>
+<polygon points="300,58 405,518 111,149 536,354 195,518 489,149 64,354" stroke-width=".9" opacity=".8"/>
+<g fill="#050404" stroke-width="1"><circle cx="300" cy="58" r="7"/><circle cx="489" cy="149" r="7"/><circle cx="536" cy="354" r="7"/><circle cx="405" cy="518" r="7"/><circle cx="195" cy="518" r="7"/><circle cx="64" cy="354" r="7"/><circle cx="111" cy="149" r="7"/></g>
+<g fill="#c0242f" stroke="none"><circle cx="300" cy="58" r="2"/><circle cx="489" cy="149" r="2"/><circle cx="536" cy="354" r="2"/><circle cx="405" cy="518" r="2"/><circle cx="195" cy="518" r="2"/><circle cx="64" cy="354" r="2"/><circle cx="111" cy="149" r="2"/></g>
+</g>
+<circle cx="300" cy="300" r="214" fill="none" stroke="#6e0a12" stroke-width="1"/>
+</svg>
+<div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);">
+<div class="cornice" data-maxw="320" data-maxh="420" style="background:#0b0a09;border:1px solid #c0242f;outline:1px solid #6b6457;outline-offset:5px;overflow:hidden;position:relative;width:280px;height:400px;">
+<img src="https://i.postimg.cc/GmBm5ZKX/963ab28bd29ade3987995fd5f39a9594.jpg" alt="Il Vegliante" style="display:block;width:100%;height:100%;object-fit:cover;">
+<div style="position:absolute;inset:0;box-shadow:inset 0 0 50px 6px #050404;"></div>
+</div>
+</div>
+</div>
+<div style="text-align:center;margin-top:4px;"><span style="display:inline-block;width:70px;border-top:1px solid #6e0a12;vertical-align:middle;"></span><i style="font-size:26px;letter-spacing:2px;color:#e6dcc6;margin:0 18px;vertical-align:middle;">L'ombra che si allunga…</i><span style="display:inline-block;width:70px;border-top:1px solid #6e0a12;vertical-align:middle;"></span></div>
+</td></tr>
+
+<!-- I SIGILLI SI SPEZZANO -->
+<tr><td align="center" style="padding-top:70px;">
+<svg width="600" height="150" viewBox="0 0 600 150" aria-hidden="true">
+<line x1="0" y1="60" x2="104" y2="60" stroke="#6e0a12" stroke-width="1"/>
+<line x1="196" y1="60" x2="254" y2="60" stroke="#6e0a12" stroke-width="1"/>
+<line x1="346" y1="60" x2="404" y2="60" stroke="#6e0a12" stroke-width="1" stroke-dasharray="6 5"/>
+<line x1="496" y1="60" x2="600" y2="60" stroke="#6e0a12" stroke-width="1" stroke-dasharray="2 9"/>
+<!-- I: intatto -->
+<circle cx="150" cy="60" r="38" fill="#0b0a09" stroke="#c0242f" stroke-width="1.2"/>
+<circle cx="150" cy="60" r="31" fill="none" stroke="#6e0a12" stroke-width=".8"/>
+<text x="150" y="70" text-anchor="middle" font-family="'EB Garamond',serif" font-size="27" letter-spacing="1" fill="#e6dcc6">I</text>
+<!-- II: incrinato -->
+<circle cx="300" cy="60" r="38" fill="#0b0a09" stroke="#c0242f" stroke-width="1.2"/>
+<circle cx="300" cy="60" r="31" fill="none" stroke="#6e0a12" stroke-width=".8"/>
+<text x="300" y="70" text-anchor="middle" font-family="'EB Garamond',serif" font-size="27" letter-spacing="1" fill="#e6dcc6">II</text>
+<polyline points="282,23 291,41 285,52 298,66 292,79 304,97" fill="none" stroke="#050404" stroke-width="3"/>
+<polyline points="282,23 291,41 285,52 298,66 292,79 304,97" fill="none" stroke="#c0242f" stroke-width=".7"/>
+<!-- III: spezzato -->
+<defs>
+<clipPath id="metaSx"><path d="M450,22 A38,38 0 0,0 444,97 L452,78 L441,62 L455,47 L446,33 Z"/></clipPath>
+<clipPath id="metaDx"><path d="M450,22 A38,38 0 0,1 444,97 L452,78 L441,62 L455,47 L446,33 Z"/></clipPath>
+</defs>
+<g transform="translate(-6,-3) rotate(-8 450 60)">
+<path d="M450,22 A38,38 0 0,0 444,97 L452,78 L441,62 L455,47 L446,33 Z" fill="#0b0a09" stroke="#c0242f" stroke-width="1.2"/>
+<text x="450" y="70" text-anchor="middle" font-family="'EB Garamond',serif" font-size="27" letter-spacing="1" fill="#e6dcc6" clip-path="url(#metaSx)">III</text>
+</g>
+<g transform="translate(7,4) rotate(10 450 60)">
+<path d="M450,22 A38,38 0 0,1 444,97 L452,78 L441,62 L455,47 L446,33 Z" fill="#0b0a09" stroke="#c0242f" stroke-width="1.2"/>
+<text x="450" y="70" text-anchor="middle" font-family="'EB Garamond',serif" font-size="27" letter-spacing="1" fill="#e6dcc6" clip-path="url(#metaDx)">III</text>
+</g>
+<g fill="#c0242f"><path d="M430,104 l4,9 -6,-2z"/><path d="M468,110 l5,6 -7,1z"/><path d="M451,118 l2,7 -4,-3z"/></g>
+<text x="300" y="140" text-anchor="middle" font-family="'EB Garamond',serif" font-size="12" letter-spacing="6" fill="#8f8572">SIGNACVLA SOLVVNTVR</text>
+</svg>
+</td></tr>
+
+<!-- FORMA D'OMBRA: l'ombra trabocca dalla cornice -->
+<tr><td style="padding-top:50px;">
+<div style="font-family:UnifrakturMaguntia,serif;font-size:24px;color:#f0e8d6;text-align:center;letter-spacing:1px;">Forma d'Ombra</div>
+<div style="position:relative;width:600px;height:620px;margin-top:6px;">
+<div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);">
+<div class="cornice" data-maxw="320" data-maxh="420" style="background:#0b0a09;border:1px solid #c0242f;outline:1px solid #6b6457;outline-offset:5px;overflow:hidden;position:relative;width:280px;height:400px;">
+<img src="https://i.postimg.cc/25wMF5Ww/4eb21a5a912c390a158d431a30021f4e.jpg" alt="Forma d'Ombra" style="display:block;width:100%;height:100%;object-fit:cover;">
+<div style="position:absolute;inset:0;box-shadow:inset 0 0 60px 10px #050404;"></div>
+</div>
+<!-- alone d'ombra: segue la cornice, 120 px ai lati e 100 sopra e sotto -->
+<div style="position:absolute;left:-120px;top:-100px;right:-120px;bottom:-100px;pointer-events:none;">
+<svg width="100%" height="100%" viewBox="40 0 520 600" preserveAspectRatio="none" style="position:absolute;left:0;top:0;overflow:visible;" aria-hidden="true">
+<defs>
+<linearGradient id="inchSu" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#3a070d"/><stop offset="1" stop-color="#3a070d" stop-opacity="0"/></linearGradient>
+<linearGradient id="inchGiu" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a070d"/><stop offset="1" stop-color="#3a070d" stop-opacity="0"/></linearGradient>
+<linearGradient id="inchSx" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#3a070d"/><stop offset="1" stop-color="#3a070d" stop-opacity="0"/></linearGradient>
+<linearGradient id="inchDx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3a070d"/><stop offset="1" stop-color="#3a070d" stop-opacity="0"/></linearGradient>
+</defs>
+<path d="M190,104 C178,70 150,52 128,18 C160,40 196,58 214,100 Z" fill="url(#inchSu)"/>
+<path d="M300,102 C296,66 312,40 300,4 C326,36 330,70 322,102 Z" fill="url(#inchSu)"/>
+<path d="M400,104 C418,64 452,52 476,26 C462,60 436,78 420,104 Z" fill="url(#inchSu)"/>
+<path d="M162,180 C124,170 92,186 46,164 C86,198 124,204 162,214 Z" fill="url(#inchSx)"/>
+<path d="M162,330 C118,338 84,374 30,372 C76,392 120,374 162,364 Z" fill="url(#inchSx)"/>
+<path d="M162,440 C130,452 112,480 70,496 C112,500 140,476 162,466 Z" fill="url(#inchSx)"/>
+<path d="M438,210 C484,196 512,214 566,196 C528,232 482,236 438,244 Z" fill="url(#inchDx)"/>
+<path d="M438,390 C482,398 520,436 580,432 C530,460 476,430 438,420 Z" fill="url(#inchDx)"/>
+<path d="M220,498 C214,530 186,556 172,594 C206,566 236,540 246,498 Z" fill="url(#inchGiu)"/>
+<path d="M352,498 C364,534 394,552 412,590 C382,566 350,542 334,498 Z" fill="url(#inchGiu)"/>
+<g fill="none" stroke="#8a0f19" stroke-width="1" opacity=".95" vector-effect="non-scaling-stroke">
+<path d="M202,102 C186,72 158,54 136,26" vector-effect="non-scaling-stroke"/><path d="M311,102 C306,70 318,44 306,10" vector-effect="non-scaling-stroke"/><path d="M410,104 C428,70 456,56 470,34" vector-effect="non-scaling-stroke"/>
+<path d="M162,196 C122,186 92,196 56,176" vector-effect="non-scaling-stroke"/><path d="M162,348 C118,358 86,382 40,382" vector-effect="non-scaling-stroke"/>
+<path d="M438,226 C486,212 518,224 556,206" vector-effect="non-scaling-stroke"/><path d="M438,404 C484,414 520,442 568,440" vector-effect="non-scaling-stroke"/>
+<path d="M232,498 C224,532 198,558 182,588" vector-effect="non-scaling-stroke"/><path d="M342,498 C356,532 386,552 402,584" vector-effect="non-scaling-stroke"/>
+</g>
+</svg>
+<svg class="occhio" style="position:absolute;left:5.8%;top:40.6%;width:44px;height:13px;overflow:visible;opacity:1;animation-delay:0s;" viewBox="0 0 44.1 12.6" aria-hidden="true"><path d="M0,6.3 q9.0,-6.3 18.0,0 q-9.0,6.3 -18.0,0z M26.1,6.3 q9.0,-6.3 18.0,0 q-9.0,6.3 -18.0,0z" fill="url(#iride)" filter="url(#bagliore)"/></svg><svg class="occhio" style="position:absolute;left:85.8%;top:19.2%;width:34px;height:10px;overflow:visible;opacity:0.7;animation-delay:2.3s;" viewBox="0 0 34.3 9.8" aria-hidden="true"><path d="M0,4.9 q7.0,-4.9 14.0,0 q-7.0,4.9 -14.0,0z M20.3,4.9 q7.0,-4.9 14.0,0 q-7.0,4.9 -14.0,0z" fill="url(#iride)" filter="url(#bagliore)"/></svg><svg class="occhio" style="position:absolute;left:88.1%;top:48.8%;width:49px;height:14px;overflow:visible;opacity:1;animation-delay:4.1s;" viewBox="0 0 49.0 14.0" aria-hidden="true"><path d="M0,7.0 q10.0,-7.0 20.0,0 q-10.0,7.0 -20.0,0z M29.0,7.0 q10.0,-7.0 20.0,0 q-10.0,7.0 -20.0,0z" fill="url(#iride)" filter="url(#bagliore)"/></svg><svg class="occhio" style="position:absolute;left:10.0%;top:73.6%;width:29px;height:8px;overflow:visible;opacity:0.55;animation-delay:1.2s;" viewBox="0 0 29.4 8.4" aria-hidden="true"><path d="M0,4.2 q6.0,-4.2 12.0,0 q-6.0,4.2 -12.0,0z M17.4,4.2 q6.0,-4.2 12.0,0 q-6.0,4.2 -12.0,0z" fill="url(#iride)" filter="url(#bagliore)"/></svg><svg class="occhio" style="position:absolute;left:82.7%;top:86.1%;width:39px;height:11px;overflow:visible;opacity:0.8;animation-delay:5.6s;" viewBox="0 0 39.2 11.2" aria-hidden="true"><path d="M0,5.6 q8.0,-5.6 16.0,0 q-8.0,5.6 -16.0,0z M23.2,5.6 q8.0,-5.6 16.0,0 q-8.0,5.6 -16.0,0z" fill="url(#iride)" filter="url(#bagliore)"/></svg><svg class="occhio" style="position:absolute;left:13.1%;top:10.3%;width:29px;height:8px;overflow:visible;opacity:0.45;animation-delay:3.3s;" viewBox="0 0 29.4 8.4" aria-hidden="true"><path d="M0,4.2 q6.0,-4.2 12.0,0 q-6.0,4.2 -12.0,0z M17.4,4.2 q6.0,-4.2 12.0,0 q-6.0,4.2 -12.0,0z" fill="url(#iride)" filter="url(#bagliore)"/></svg><svg class="occhio" style="position:absolute;left:43.5%;top:92.5%;width:34px;height:10px;overflow:visible;opacity:0.6;animation-delay:6.4s;" viewBox="0 0 34.3 9.8" aria-hidden="true"><path d="M0,4.9 q7.0,-4.9 14.0,0 q-7.0,4.9 -14.0,0z M20.3,4.9 q7.0,-4.9 14.0,0 q-7.0,4.9 -14.0,0z" fill="url(#iride)" filter="url(#bagliore)"/></svg>
+</div>
+</div>
+</div>
+<div style="text-align:center;margin-top:4px;"><span style="display:inline-block;width:70px;border-top:1px solid #6e0a12;vertical-align:middle;"></span><i class="pulsa" style="font-size:26px;letter-spacing:2px;color:#e6dcc6;margin:0 18px;vertical-align:middle;">…di un'essenza che non ha forma</i><span style="display:inline-block;width:70px;border-top:1px solid #6e0a12;vertical-align:middle;"></span></div>
+</td></tr>
+
+<tr><td align="center" style="padding:70px 0 30px;"><i style="letter-spacing:3px;color:#8f8572;">In tenebras</i></td></tr>
+</table>
+</td></tr></table>
+</div>
+<script>
+/* ogni cornice prende le proporzioni della sua immagine, entro il riquadro massimo indicato */
+document.querySelectorAll('.cornice').forEach(function (c) {
+  var img = c.querySelector('img');
+  function adatta() {
+    var r = img.naturalWidth / img.naturalHeight;
+    if (!r) return;
+    var mw = +c.dataset.maxw, mh = +c.dataset.maxh, w = mw, h = mw / r;
+    if (h > mh) { h = mh; w = mh * r; }
+    c.style.width = Math.round(w) + 'px';
+    c.style.height = Math.round(h) + 'px';
+  }
+  if (img.complete) adatta(); else img.addEventListener('load', adatta);
+});
+</script>
+</body>
+</html>
